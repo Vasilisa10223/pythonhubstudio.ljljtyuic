@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    background-color: rgb(240, 167, 32);
+}
+
+
+.loufgh {
+    color: orchid;
+}
+
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-list a:hover {
+    background-color: rgb(255, 252, 248);
+}
+
+.nav-btn {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .nav-btn {
+        font-size: 2em;
+        padding-inline: 10px; 
+        padding-bottom: 3px;
+        border: none;
+        background-color: rgb(189, 128, 16) ;
+        color: rgb(0, 0, 0);
+        display: block;
+        cursor: pointer;
+    }
+    .nav-list {
+        display: none;
+    }
+
+    .nav-btn:hover {
+        background-color: rgb(255, 197, 90);
+    }
+
+    .drop:hover .nav-list {
+        display: block;
+        position: absolute;
+        background-color: rgb(233, 233, 233);
+        right: 1px;
+    }
+      .navbar {
+        justify-content: space-between; 
+    } 
+}
+
